@@ -2,7 +2,7 @@ from unittest import TestCase, main
 from functools import reduce
 
 
-# Assignment 1: Write a Python function that counts the vowels (a, e, i, o, u) in a given string
+# Assignment 2: Write a Python function that counts the vowels (a, e, i, o, u) in a given string
 def countVowels(string):
     vowels = 'aeiou'
 
@@ -13,7 +13,7 @@ def countVowels(string):
 testString = "example"
 
 
-# Tests for assignment 1
+# Tests for assignment 2
 class CountVowelsTest(TestCase):
     def testHappyPath(self):
         self.assertEqual(countVowels(testString), 3)
