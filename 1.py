@@ -4,11 +4,7 @@ from functools import reduce
 
 # Assignment 1.A: Write a Python function that calculates the Sum of the list
 def sum(lst):
-	lstLen = len(lst)
-	if lstLen == 0:
-		return 0
-
-	return reduce((lambda a, b: a + b), lst)
+	return reduce((lambda a, b: a + b), lst, 0)
 
 
 # Assignment 1.B: Write a Python function that calculates the Average of the list
